@@ -1,4 +1,4 @@
-import FullPageImageView from "~/app/components/full-image-page";
+import { FullPageImageView } from "~/common/full-page-image-view";
 
 export default async function PhotoPage({
   params: { id: photoId },
@@ -10,7 +10,7 @@ export default async function PhotoPage({
 
   return (
     <div className="h-full">
-      <FullPageImageView id={idAsNumber} />
+      <FullPageImageView photoId={photoId} />
     </div>
   );
 }
