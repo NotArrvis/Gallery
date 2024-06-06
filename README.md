@@ -16,4 +16,4 @@
 - [x] ShadUlify (specifically toasts)
 - [x] Delete button (w/ server Actions)
 - [x] Analytics (posthog)
-- [ ] Ratelimiting (upstash)
+- [x] Ratelimiting (upstash)
